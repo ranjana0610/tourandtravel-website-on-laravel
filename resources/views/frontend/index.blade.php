@@ -243,7 +243,7 @@
             <div class="col-lg-6 offset-lg-3">
                 <div class="title-area text-center">
                     <span class="sub-title">Wonderful Place For You</span>
-                    <h2 class="sec-title"><span id="clrsec">Our</span>Services</h2>
+                    <h2 class="sec-title">Our <span id="clrsec">Services</span></h2>
                 </div>
             </div>
         </div>
@@ -493,6 +493,10 @@
         width: 100% !important;
         height: auto !important;
     }
+    .air-title {
+    font-size: 20px !important;
+    
+}
 
     /* Item 3 and Item 6 should span both columns */
     .grid-container-new > div:nth-child(3),
@@ -923,9 +927,9 @@
 <section class="bg-smoke space overflow-hidden" data-bg-src="assets/img/bg/team_bg_1.png" id="team">
     <div class="container z-index-common">
         <div class="title-area text-center"><span class="sub-title">Meet with Team</span>
-            <h2 class="sec-title"><span id="clrsec">Our</span>Team</h2>
+            <h2 class="sec-title">Our <span id="clrsec">Team</span></h2>
         </div>
-        <div class="swiper-wrapper teammembers">
+        <div class="teammembers">
             <div class="swiper-slide">
                 <div class="th-team team-box">
                     <div class="team-img"><img src="{{asset('frontend/img/team/team_1.png') }}" alt="Team"></div>
@@ -1090,7 +1094,7 @@
             </div>
         </div>
         <div class="swiper th-slider brandSlider1" id="brandSlider1"
-            data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"2"},"768":{"slidesPerView":"3"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"6"},"1400":{"slidesPerView":"8"}}}'>
+            data-slider-options='{"breakpoints":{"0":{"slidesPerView":2},"576":{"slidesPerView":"2"},"768":{"slidesPerView":"3"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"6"},"1400":{"slidesPerView":"8"}}}'>
             <p style="text-align: left;" class="air-title">Airlines</p>
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -1162,7 +1166,7 @@
         </div>
         <p style="text-align: left;" class="air-title">Hotels</p>
         <div class="swiper th-slider brandSlider1" id="brandSlider1"
-            data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"2"},"768":{"slidesPerView":"3"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"6"},"1400":{"slidesPerView":"8"}}}'>
+            data-slider-options='{"breakpoints":{"0":{"slidesPerView":2},"576":{"slidesPerView":"2"},"768":{"slidesPerView":"3"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"6"},"1400":{"slidesPerView":"8"}}}'>
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="brand-box"><a href="#"><img class="original" src="{{asset ('frontend/img/brand/hotel/Taj_Hotels_logo.png')}}"

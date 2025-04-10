@@ -137,7 +137,7 @@ gap: 25px;
         </div>
     </div>
     </div>
-    <img class="monumentsbanner" src="http://127.0.0.1:8000/frontend/img/bg-bodyw.png" alt="" width="100%">
+    <img class="monumentsbanner" src="{{asset ('frontend/img/bg-bodyw.png')}}" alt="" width="100%">
     <div class="copyright-wrap" data-bg-src="assets/img/bg/copyright_bg_1.jpg">
         <div class="container">
             <div class="row justify-content-between align-items-center">
@@ -272,6 +272,7 @@ gap: 25px;
 <script src="{{ asset('frontend/js/matterjs-custom.js') }}"></script>
 <script src="{{ asset('frontend/js/nice-select.min.js') }}"></script>
 <script src="{{ asset('frontend/js/main.js') }}"></script>
+
 
 </body>
 <!-- Mirrored from html.themeholy.com/tourm/demo/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 27 Mar 2025 10:16:12 GMT -->
