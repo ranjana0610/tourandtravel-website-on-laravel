@@ -11,8 +11,5 @@ class AboutController extends Controller
         return view('frontend.about');
     }
     
-    public function about2(){
-        return view('frontend.about2');
-    }
-    
+   
 }
